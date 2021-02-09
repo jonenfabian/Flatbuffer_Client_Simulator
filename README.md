@@ -9,6 +9,6 @@
 
 3. execute the client: open another CMD, cd into ```samples``` and run ``` python flatbuffer_test_client.py ```. The Client sends data to the Port 8089.
 
-Note: The flatbuffer schema is [buttons_schema_test_v2.fbs](samples/buttons_schema_test_v2.fbs)
+Note: The flatbuffer schema is [buttons_schema_test.fbs](samples/buttons_schema_test.fbs)
 
 Compile it using the [Tutorial](https://google.github.io/flatbuffers/flatbuffers_guide_tutorial.html) and build your flatbuffer-server to receive and interpret the data.
