@@ -11,4 +11,4 @@
 
 Note: The flatbuffer schema is [buttons_schema_test_v2.fbs](samples/buttons_schema_test_v2.fbs)
 
-Compile it using the [Tutorial](https://google.github.io/flatbuffers/flatbuffers_guide_tutorial.html) 
+Compile it using the [Tutorial](https://google.github.io/flatbuffers/flatbuffers_guide_tutorial.html) and build your flatbuffer-server to receive and interpret the data.
