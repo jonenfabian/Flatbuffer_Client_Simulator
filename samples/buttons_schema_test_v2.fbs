@@ -1,10 +1,6 @@
 // Example IDL file for our Button's schema.
 
-namespace MyButtons2.Sample;
-
-// enum Color:byte { Red = 0, Green, Blue = 2 }
-
-//union Equipment { Button } // Optionally add more tables.
+namespace MyButtons.Sample;
 
 table Frame {
   buttons:[Button];
