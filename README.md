@@ -4,8 +4,8 @@
 > while walking through the install wizard make sure to enable PATH
 ![activate PATH](https://datatofish.com/wp-content/uploads/2018/10/0001_add_Python_to_Path.png)
 
-2. start the server that will receive the data from the client. Make sure you listen to Port 8089 on your localhost
-> If you don't have a server, open CMD, cd into ```samples``` and run ``` python flatbuffer_server.py ```
+2. start your flatbuffer-server that will receive the data from the client. Make sure you listen to Port 8089.
+> If you don't have a server yet, I have provided a test-server that only displays the raw binary code that is received. Open CMD, cd into ```samples``` and run ``` python flatbuffer_server.py ```
 
 3. execute the client: open another CMD, cd into ```samples``` and run ``` python flatbuffer_test_client.py ```. The Client sends data to the Port 8089.
 
