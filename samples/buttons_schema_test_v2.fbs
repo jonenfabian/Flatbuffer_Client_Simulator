@@ -1,0 +1,27 @@
+// Example IDL file for our Button's schema.
+
+namespace MyButtons2.Sample;
+
+// enum Color:byte { Red = 0, Green, Blue = 2 }
+
+//union Equipment { Button } // Optionally add more tables.
+
+table Frame {
+  buttons:[Button];
+}
+
+table Button {
+  x1:int;
+  y1:int;
+  x2:int;
+  y2:int;
+  label:string;
+  priority:short = 1;
+  button_contour:bool = 1;
+  color_R:int;
+  color_G:int;
+  color_B:int;
+  type_line:bool = 0;
+}
+
+root_type Frame;
