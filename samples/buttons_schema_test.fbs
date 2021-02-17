@@ -6,17 +6,26 @@ table Frame {
   buttons:[Button];
 }
 
+struct Color {
+    r:int;
+    g:int;
+    b:int;
+    a:int;
+}
+
+struct Point {
+  x:int;
+  y:int;
+}
+
 table Button {
-  x1:int;
-  y1:int;
-  x2:int;
-  y2:int;
-  label:string;
+  id:int;
   priority:short = 1;
+  label:string;
+  start:Point;
+  end:Point;
+  color:Color;
   button_contour:bool = 1;
-  color_R:int;
-  color_G:int;
-  color_B:int;
   type_line:bool = 0;
 }
 
